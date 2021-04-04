@@ -12,6 +12,8 @@ import { SaladsComponent } from './salads/salads.component';
 import { SnacksComponent } from './snacks/snacks.component';
 import { SoftdrinksComponent } from './softdrinks/softdrinks.component';
 import { StartersComponent } from './starters/starters.component';
+import { SignupComponent } from './signup/signup.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { StartersComponent } from './starters/starters.component';
     SaladsComponent,
     SnacksComponent,
     SoftdrinksComponent,
-    StartersComponent
+    StartersComponent,
+    SignupComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
